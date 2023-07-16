@@ -1,0 +1,138 @@
+*
+{
+	font-family:Helvetica;
+}
+
+.banner
+{
+	font-size:90px;
+	font-weight:bold;
+	text-align:center;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+.center
+{
+	display: flex; 
+	justify-content: center; 
+	align-items: center;
+}
+
+.blurframe
+{
+	background-color:rgba(110, 110, 110, 0.088); 
+	width:fit-content; 
+	padding: 45px 35px 45px 35px;
+	border-radius: 50px; 
+	backdrop-filter: blur(14px);
+	border: 3px solid wheat;
+    color: wheat;
+}
+
+.shopHeading
+{	
+	background-image:url(../Images/StardewBanner.png);
+	background-position-x: center;
+	background-position-y: bottom;
+	color:#f7e927;
+}
+
+.contactUsHeading
+{
+	background-image:url(https://wallpaperaccess.com/full/2838989.jpg) ;
+	background-size: contain;
+	color:#e73d3d;
+}
+
+
+h2
+{
+	color:white;
+	font-size:32px;
+	font-weight:bold;
+	text-align:center;
+}
+
+h3
+{
+	font-weight:bold;
+}
+
+.textbold
+{
+	font-weight:bold;
+	color:blue;
+}
+
+#heading1
+{
+	background-color:#99fdd5;
+	margin-top:50px;
+}
+
+#heading2
+{
+	background-color:#f8cbca;
+}
+
+#heading3
+{
+	background-color:#cfebf8;
+}
+
+.frame1
+{
+	background-color:#99fdd525;
+	border-radius:20px;
+	border:#99fdd5 5px dotted ;
+	padding: 15px;
+}
+
+.frame2
+{
+	background-color:#f8cbca25;
+	border-radius:20px;
+	border: #f8cbca 5px dotted ;
+	padding: 15px;
+}
+
+.frame3
+{
+	background-color:#cfebf825;
+	border-radius:20px;
+	border:#cfebf8 5px dotted ;
+	padding: 15px;
+}
+
+.tab {
+	padding-left: 28%;
+	overflow: hidden;
+	border: 1px solid #ccc;
+	background-color: #99fdd525;
+	transition:0s;
+  }
+
+  .tab button {
+	background-color:#99fdd5;
+	float:left;
+	border:3px dotted #f6fbfc;
+	outline:none;
+	cursor:pointer;
+	padding:14px 16px;
+	transition: background-color 0.3s;
+	transition: border 0.3s;
+	margin-right:5px;
+	width:150px;
+  }
+
+  .tab button:hover {
+	background-color: #ddd;
+	border: 3px dotted #000000;
+  }
+
+  body 
+  {
+	background-color: #b0e0e61a;
+	background: linear-gradient(270deg, #f8cbca 10% , #cfebf8 );
+  }
