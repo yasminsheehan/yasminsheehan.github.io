@@ -1,6 +1,10 @@
+@font-face {
+	font-family: "StardewFont";
+	src: url("../Fonts/stardew-valley-stonks.otf") format("opentype");
+	}
 *
 {
-	font-family:Helvetica;
+	font-family:StardewFont;
 }
 
 .banner
@@ -8,8 +12,9 @@
 	font-size:90px;
 	font-weight:bold;
 	text-align:center;
-	padding-top:50px;
-	padding-bottom:50px;
+	padding-top: 25px;
+    padding-bottom: 25px;
+    box-shadow: inset 0px 5px 5px 0px #000000bd;
 }
 
 .center
@@ -21,13 +26,14 @@
 
 .blurframe
 {
-	background-color:rgba(110, 110, 110, 0.088); 
-	width:fit-content; 
-	padding: 45px 35px 45px 35px;
-	border-radius: 50px; 
-	backdrop-filter: blur(14px);
-	border: 3px solid wheat;
+	background-color: rgba(110, 110, 110, 0.088);
+    width: fit-content;
+    padding: 40px 20px 25px 30px;
+    border-radius: 50px;
+    backdrop-filter: blur(14px);
+    border: 3px solid wheat;
     color: wheat;
+    font-weight: 100;
 }
 
 .shopHeading
@@ -59,80 +65,47 @@ h3
 	font-weight:bold;
 }
 
-.textbold
-{
-	font-weight:bold;
-	color:blue;
-}
-
-#heading1
-{
-	background-color:#99fdd5;
-	margin-top:50px;
-}
-
-#heading2
-{
-	background-color:#f8cbca;
-}
-
-#heading3
-{
-	background-color:#cfebf8;
-}
-
-.frame1
-{
-	background-color:#99fdd525;
-	border-radius:20px;
-	border:#99fdd5 5px dotted ;
-	padding: 15px;
-}
-
-.frame2
-{
-	background-color:#f8cbca25;
-	border-radius:20px;
-	border: #f8cbca 5px dotted ;
-	padding: 15px;
-}
-
-.frame3
-{
-	background-color:#cfebf825;
-	border-radius:20px;
-	border:#cfebf8 5px dotted ;
-	padding: 15px;
-}
-
 .tab {
-	padding-left: 28%;
 	overflow: hidden;
-	border: 1px solid #ccc;
-	background-color: #99fdd525;
+	border-bottom: 3px solid #a4582c;
+	/* background-color: #ffcc7d; */
 	transition:0s;
+	background-image:url(../Images/TopBanner.png);
+	background-position-x: center;
+	background-position-y: bottom;
   }
 
   .tab button {
-	background-color:#99fdd5;
-	float:left;
-	border:3px dotted #f6fbfc;
-	outline:none;
-	cursor:pointer;
-	padding:14px 16px;
-	transition: background-color 0.3s;
-	transition: border 0.3s;
-	margin-right:5px;
-	width:150px;
+	background-color: #e27a3d00;
+    float: left;
+    border: 0px solid #e2793f;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: background-color 0.3s;
+    transition: border 0.3s;
+    margin-right: 5px;
+    width: 150px;
+    color: #C1595B;
+    margin: 5px;
+    /* border-radius: 2px; */
   }
 
   .tab button:hover {
-	background-color: #ddd;
-	border: 3px dotted #000000;
+	background-color: #ac573f00;
+    /* border: 3px solid #5b211a4f; */
+	transform: scale(1.1);
+  }
+
+  .tablinks {
+	background-image:url(../Images/SmolButtOn.png);
+	background-repeat: no-repeat;
+  	background-size: 148px 42px;
   }
 
   body 
   {
-	background-color: #b0e0e61a;
-	background: linear-gradient(270deg, #f8cbca 10% , #cfebf8 );
+	background-color: #ffcc7d;
+    /* background: linear-gradient(270deg, #fecc7d 10% , #e2793f ); */
+    margin: 0px;
   }
