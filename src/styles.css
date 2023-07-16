@@ -16,7 +16,7 @@
     padding-bottom: 25px;
     box-shadow: inset 0px 5px 5px 0px #000000bd;
 	transition: 15s;
-	height: 200px;
+	/* height: 200px; */
 }
 
 .banner:hover{
