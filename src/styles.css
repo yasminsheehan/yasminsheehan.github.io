@@ -17,7 +17,7 @@
     box-shadow: inset 0px 5px 5px 0px #000000bd;
 }
 
-.blurframe
+.blurFrame
 {
 	background-color: rgba(110, 110, 110, 0.088);
     width: fit-content;
@@ -27,6 +27,13 @@
     border: 3px solid wheat;
     color: wheat;
     font-weight: 100;
+	transition: 0.5s;
+}
+
+.blurFrame:hover {
+	transform: scale(1.1);
+	transform: rotate3d(1, 2, 3, 10deg);
+
 }
 
 body 
@@ -72,14 +79,20 @@ h3
 }
 
 .menuButton {
-	background-image:url(../Images/ButtOn2.png);
-	background-repeat: no-repeat;
-  	background-size: 40px 40px;
-	width: 40px;
-	height: 40px;
+	background-image:url(../Images/MenuButtonNew.png);
+	background-repeat: off;
+  	background-size: 50px 50px;
+	width: 50px;
+	height: 50px;
 	margin-right: 10px;
 	border: 0px;
+	background-color: #00000000;
+	transition: 0.5s;
   }
+
+.menuButton:hover{
+	transform: scale(1.1);
+}
 
 .menuButtonDiv
   {
