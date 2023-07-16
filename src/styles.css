@@ -17,13 +17,6 @@
     box-shadow: inset 0px 5px 5px 0px #000000bd;
 }
 
-.center
-{
-	display: flex; 
-	justify-content: center; 
-	align-items: center;
-}
-
 .blurframe
 {
 	background-color: rgba(110, 110, 110, 0.088);
@@ -36,12 +29,26 @@
     font-weight: 100;
 }
 
-.shopHeading
+body 
+{
+  background-color: #ffcc7d;
+  /* background: linear-gradient(270deg, #fecc7d 10% , #e2793f ); */
+  margin: 0px;
+}
+
+.calendarHeading
 {	
 	background-image:url(../Images/StardewBanner.png);
 	background-position-x: center;
 	background-position-y: bottom;
 	color:#f7e927;
+}
+
+.center
+{
+	display: flex; 
+	justify-content: center; 
+	align-items: center;
 }
 
 .contactUsHeading
@@ -50,7 +57,6 @@
 	background-size: contain;
 	color:#e73d3d;
 }
-
 
 h2
 {
@@ -65,6 +71,23 @@ h3
 	font-weight:bold;
 }
 
+.menuButton {
+	background-image:url(../Images/ButtOn2.png);
+	background-repeat: no-repeat;
+  	background-size: 40px 40px;
+	width: 40px;
+	height: 40px;
+	margin-right: 10px;
+	border: 0px;
+  }
+
+.menuButtonDiv
+  {
+	display: flex; 
+	justify-content: end; 
+	align-items: center;
+  }
+
 .tab {
 	overflow: hidden;
 	border-bottom: 3px solid #a4582c;
@@ -75,7 +98,7 @@ h3
 	background-position-y: bottom;
   }
 
-  .tab button {
+  .tab .tablinks {
 	background-color: #e27a3d00;
     float: left;
     border: 0px solid #e2793f;
@@ -86,12 +109,13 @@ h3
     transition: border 0.3s;
     margin-right: 5px;
     width: 150px;
-    color: #C1595B;
+    color: #c1595b;
     margin: 5px;
+	font-size: 16px;
     /* border-radius: 2px; */
   }
 
-  .tab button:hover {
+  .tab .tablinks:hover {
 	background-color: #ac573f00;
     /* border: 3px solid #5b211a4f; */
 	transform: scale(1.1);
@@ -103,9 +127,3 @@ h3
   	background-size: 148px 42px;
   }
 
-  body 
-  {
-	background-color: #ffcc7d;
-    /* background: linear-gradient(270deg, #fecc7d 10% , #e2793f ); */
-    margin: 0px;
-  }
