@@ -14,7 +14,7 @@
 	text-align:center;
 	padding-top: 25px;
     padding-bottom: 25px;
-    box-shadow: inset 0px 5px 5px 0px #000000bd;
+    box-shadow: inset 0px 0px 13px 7px #000000bd;
 	transition: 15s;
 	/* height: 200px; */
 }
@@ -47,6 +47,7 @@ body
   background-color: #ffcc7d;
   /* background: linear-gradient(270deg, #fecc7d 10% , #e2793f ); */
   margin: 0px;
+  background-image:url(../Images/TopBanner.png);
 }
 
 .calendarHeading
@@ -70,6 +71,13 @@ body
 	background-size: contain;
 	color:#e73d3d;
 }
+
+h1
+    {
+        font-size: 40px;
+        font-weight: bold;
+		color: #e73d3d;
+    }
 
 h2
 {
@@ -144,5 +152,12 @@ h3
 	background-image:url(../Images/SmolButtOn.png);
 	background-repeat: no-repeat;
   	background-size: 148px 42px;
+  }
+
+  .titleHeading {
+	background-image:url(../Images/PathBanner.png);
+	background-position-x: center;
+	background-position-y: bottom;
+	color:#f7e927;
   }
 
