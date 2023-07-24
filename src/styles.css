@@ -186,10 +186,18 @@ h3
 	border-collapse: collapse;
   }
  
+  td {
+	padding-left: 10px;
+	padding-top: 10px;
+  }
+
   th, td {
     text-align: center;
   }
 
+  tr, td {
+	border-radius: 20px;
+  }
 
   .titleHeading {
 	background-image:url(../Images/PathBanner.png);
