@@ -65,6 +65,16 @@ body
 	align-items: center;
 }
 
+#chicken
+{
+transition: 2s;
+}
+
+#chicken:hover
+{
+	transform: translateX(-100px);
+}
+
 .contactUsHeading
 {
 	background-image:url(https://wallpaperaccess.com/full/2838989.jpg) ;
@@ -76,7 +86,7 @@ h1
     {
         font-size: 40px;
         font-weight: bold;
-		color: #e73d3d;
+		color: #a72c2c;
     }
 
 h2
@@ -114,6 +124,18 @@ h3
 	justify-content: end; 
 	align-items: center;
   }
+
+.seasonButton
+{
+	background-image:url(../Images/SmolButtOn.png);
+	background-repeat: no-repeat;
+  	background-size: 148px 42px;
+	width: 150px;	
+    height: 42px;
+	color: #c1595b;
+	font-size: 16px;
+	padding: 14px 16px;
+}
 
 .tab {
 	overflow: hidden;
