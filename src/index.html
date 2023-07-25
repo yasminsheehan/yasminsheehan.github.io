@@ -43,21 +43,162 @@
     <div style="width:60%; height:75%; background-color: #FAEBC3; border-radius: 20px;">
       <div style="height: 15%; width: 100%; background-color: red; display: flex; border-top-left-radius: 20px; border-top-right-radius: 20px;">
         <div style="height: 100%; width: 25%; background-color: #734415; border-top-left-radius: 20px;" class="center">
-          <button onclick="hideCalendar()" class="seasonButton"> Spring </button>
+          <button onclick="test('spring')" class="seasonButton"> Spring </button>
         </div>
         <div style="height: 100%; width: 25%; background-color: #734415" class="center">
-          <button class="seasonButton"> Summer </button>
+          <button onclick="test('summer')" class="seasonButton"> Summer </button>
         </div>
         <div style="height: 100%; width: 25%; background-color:#734415" class="center">
-          <button class="seasonButton"> Autumn </button>
+          <button onclick="test('autumn')" class="seasonButton"> Autumn </button>
         </div>
         <div style="height: 100%; width: 25%; background-color:#734415; border-top-right-radius: 20px;" class="center">
-          <button class="seasonButton"> Winter </button>
+          <button onclick="test('winter')" class="seasonButton"> Winter </button>
         </div>
       </div>
-      <div style="height: 85%; width: 100%; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;">
+      <div style="height: 85%; width: 100%; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px; display: flex;">
         <table id="springTable" style="width: 100%; height: 100%;">
           <tr style="height: 50px;">
+            <th>M</th>
+            <th>T</th>
+            <th>W</th>
+            <th>Th</th>
+            <th>F</th>
+            <th>Sa</th>
+            <th>Su</th>
+          </tr>
+          <tr style="vertical-align: text-top;">
+            <td class="dateBox">1</td>
+            <td class="dateBox">2</td>
+            <td class="dateBox">3</td>
+            <td class="dateBox">4</td>
+            <td class="dateBox">5</td>
+            <td class="dateBox">6</td>
+            <td class="dateBox">7</td>
+          </tr>
+          <tr style="vertical-align: text-top;">
+            <td class="dateBox">8</td>
+            <td class="dateBox">9</td>
+            <td class="dateBox">10</td>
+            <td class="dateBox">11</td>
+            <td class="dateBox">12</td>
+            <td class="dateBox">13</td>
+            <td class="dateBox">14</td>
+          </tr>
+          <tr style="vertical-align: text-top;">
+            <td class="dateBox">15</td>
+            <td class="dateBox">16</td>
+            <td class="dateBox">17</td>
+            <td class="dateBox">18</td>
+            <td class="dateBox">19</td>
+            <td class="dateBox">20</td>
+            <td class="dateBox">21</td>
+          </tr>
+          <tr style="vertical-align: text-top;">
+           <td class="dateBox">22</td>
+           <td class="dateBox">23</td>
+           <td class="dateBox">24</td>
+           <td class="dateBox">25</td>
+           <td class="dateBox">26</td>
+           <td class="dateBox">27</td>
+           <td class="dateBox">28</td>
+          </tr>
+         </table>
+        <table id="summerTable" style="width: 100%; height: 100%; visibility: hidden;">
+          <tr style="height: 50px; background-color: aqua;">
+            <th>M</th>
+            <th>T</th>
+            <th>W</th>
+            <th>Th</th>
+            <th>F</th>
+            <th>Sa</th>
+            <th>Su</th>
+          </tr>
+          <tr style="vertical-align: text-top;">
+            <td class="dateBox">1</td>
+            <td class="dateBox">2</td>
+            <td class="dateBox">3</td>
+            <td class="dateBox">4</td>
+            <td class="dateBox">5</td>
+            <td class="dateBox">6</td>
+            <td class="dateBox">7</td>
+          </tr>
+          <tr style="vertical-align: text-top;">
+            <td class="dateBox">8</td>
+            <td class="dateBox">9</td>
+            <td class="dateBox">10</td>
+            <td class="dateBox">11</td>
+            <td class="dateBox">12</td>
+            <td class="dateBox">13</td>
+            <td class="dateBox">14</td>
+          </tr>
+          <tr style="vertical-align: text-top;">
+            <td class="dateBox">15</td>
+            <td class="dateBox">16</td>
+            <td class="dateBox">17</td>
+            <td class="dateBox">18</td>
+            <td class="dateBox">19</td>
+            <td class="dateBox">20</td>
+            <td class="dateBox">21</td>
+          </tr>
+          <tr style="vertical-align: text-top;">
+           <td class="dateBox">22</td>
+           <td class="dateBox">23</td>
+           <td class="dateBox">24</td>
+           <td class="dateBox">25</td>
+           <td class="dateBox">26</td>
+           <td class="dateBox">27</td>
+           <td class="dateBox">28</td>
+          </tr>
+         </table>
+        <table id="autumnTable" style="width: 100%; height: 100%; visibility: hidden;">
+          <tr style="height: 50px; background-color: red;">
+            <th>M</th>
+            <th>T</th>
+            <th>W</th>
+            <th>Th</th>
+            <th>F</th>
+            <th>Sa</th>
+            <th>Su</th>
+          </tr>
+          <tr style="vertical-align: text-top;">
+            <td class="dateBox">1</td>
+            <td class="dateBox">2</td>
+            <td class="dateBox">3</td>
+            <td class="dateBox">4</td>
+            <td class="dateBox">5</td>
+            <td class="dateBox">6</td>
+            <td class="dateBox">7</td>
+          </tr>
+          <tr style="vertical-align: text-top;">
+            <td class="dateBox">8</td>
+            <td class="dateBox">9</td>
+            <td class="dateBox">10</td>
+            <td class="dateBox">11</td>
+            <td class="dateBox">12</td>
+            <td class="dateBox">13</td>
+            <td class="dateBox">14</td>
+          </tr>
+          <tr style="vertical-align: text-top;">
+            <td class="dateBox">15</td>
+            <td class="dateBox">16</td>
+            <td class="dateBox">17</td>
+            <td class="dateBox">18</td>
+            <td class="dateBox">19</td>
+            <td class="dateBox">20</td>
+            <td class="dateBox">21</td>
+          </tr>
+          <tr style="vertical-align: text-top;">
+           <td class="dateBox">22</td>
+           <td class="dateBox">23</td>
+           <td class="dateBox">24</td>
+           <td class="dateBox">25</td>
+           <td class="dateBox">26</td>
+           <td class="dateBox">27</td>
+           <td class="dateBox">28</td>
+          </tr>
+         </table>
+         <table id="winterTable" style="width: 100%; height: 100%; visibility: hidden;">
+          <tr style="height: 50px; background-color: green;">
             <th>M</th>
             <th>T</th>
             <th>W</th>
