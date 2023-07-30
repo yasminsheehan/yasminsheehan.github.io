@@ -18,7 +18,7 @@
             <div style="height: 80%; width: 30%; background-color: #087b7b; border-radius: 20px;">
                 <!-- Top Part  -->
                 <div style="height: 23%; width: 100%; padding-top: 3%;" class="center">
-                    <div style="height: 90%; width: 85%; background-color: #1e1d2e; border-radius: 15px; font-size: 100px; color: white; padding-left: 15px;">1</div>
+                    <div style="height: 90%; width: 85%; background-color: #1e1d2e; border-radius: 15px; font-size: 60px; color: white; padding-left: 15px;" id="display">0</div>
                 </div>
                 
                 <!-- Bottom Part -->
@@ -28,39 +28,40 @@
                         <div style="height: 25%; width: 100%; display: flex;">
                             <!-- Button 7 -->
                             <div style="height: 100%; width: 25%; " class="center">
-                                <div class="center button">7</div>
+                                <div class="center button" onclick="numberClicked(7)">7</div>
                             </div>
                             <!-- Button 8 -->
                             <div style="height: 100%; width: 25%; " class="center">
-                                <div class="center button">8</div>
+                                <div class="center button" onclick="numberClicked(8)">8</div>
                             </div>
                             <!-- Button 9 -->
                             <div style="height: 100%; width: 25%; " class="center">
-                                <div class="center button">9</div>
+                                <div class="center button" onclick="numberClicked(9)">9</div>
                             </div>
-                            <!-- Button '+' -->
-                            <div style="height: 100%; width: 25%; " class="center">
-                                <div class="center button">+</div>
+                             <!-- Button 'C' -->
+                             <div style="height: 100%; width: 25%; " class="center">
+                                <div class="center button" onclick="clearClicked()">C</div>
                             </div>
+                           
                         </div>
                         
                         <!-- 2nd row -->
                         <div style="height: 25%; width: 100%; display: flex;">
                             <!-- Button 4 -->
                             <div style="height: 100%; width: 25%; " class="center">
-                                <div class="center button">4</div>
+                                <div class="center button" onclick="numberClicked(4)">4</div>
                             </div>
                             <!-- Button 5 -->
                             <div style="height: 100%; width: 25%; " class="center">
-                                <div class="center button">5</div>
+                                <div class="center button" onclick="numberClicked(5)">5</div>
                             </div>
                             <!-- Button 6 -->
                             <div style="height: 100%; width: 25%; " class="center">
-                                <div class="center button">6</div>
+                                <div class="center button" onclick="numberClicked(6)">6</div>
                             </div>
-                            <!-- Button '-' -->
+                            <!-- Button '+' -->
                             <div style="height: 100%; width: 25%; " class="center">
-                                <div class="center button">-</div>
+                                <div class="center button" onclick="equationClicked(1,'+')">+</div>
                             </div>
                         </div>
 
@@ -68,35 +69,40 @@
                         <div style="height: 25%; width: 100%; display: flex;">
                             <!-- Button 1 -->
                             <div style="height: 100%; width: 25%; " class="center">
-                                <div class="center button">1</div>
+                                <div class="center button" onclick="numberClicked(1)">1</div>
                             </div>
                             <!-- Button 2 -->
                             <div style="height: 100%; width: 25%; " class="center">
-                                <div class="center button">2</div>
+                                <div class="center button" onclick="numberClicked(2)">2</div>
                             </div>
                             <!-- Button 3 -->
                             <div style="height: 100%; width: 25%; " class="center">
-                                <div class="center button">3</div>
+                                <div class="center button" onclick="numberClicked(3)">3</div>
                             </div>
-                            <!-- Button '*' -->
-                            <div style="height: 100%; width: 25%; " class="center">
-                                <div class="center button">x</div>
+                             <!-- Button '-' -->
+                             <div style="height: 100%; width: 25%; " class="center">
+                                <div class="center button"onclick="equationClicked(2,'-')">-</div>
                             </div>
+
                         </div>
                         
                         <!-- 4th row -->
                         <div style="height: 25%; width: 100%; display: flex;">
                             <!-- Button 0 -->
-                            <div style="height: 100%; width: 50%; " class="center">
-                                <div class="center button2">0</div>
+                            <div style="height: 100%; width: 25%; " class="center">
+                                <div class="center button" onclick="numberClicked(0)">0</div>
                             </div>
                             <!-- Button = -->
                             <div style="height: 100%; width: 25%; " class="center">
-                                <div class="center button">=</div>
+                                <div class="center button" onclick="equalsClicked()">=</div>
                             </div>
                             <!-- Button '/'' -->
                             <div style="height: 100%; width: 25%; " class="center">
-                                <div class="center button">/</div>
+                                <div class="center button" onclick="equationClicked(4, '/')">/</div>
+                            </div>
+                            <!-- Button '*' -->
+                            <div style="height: 100%; width: 25%; " class="center">
+                                <div class="center button" onclick="equationClicked(3, 'x')">x</div>
                             </div>
                         </div>
                         
