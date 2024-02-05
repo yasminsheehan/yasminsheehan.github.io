@@ -215,6 +215,7 @@ h3
   td {
 	padding: 10px;
 	transition: 0.5s;
+	background-color: #faebc3;
   }
 
   td:hover{
@@ -226,11 +227,9 @@ h3
 	.eventCaption{
 		scale: 1.05;
 	}
-
 	.eventDate{
 		scale: 1.05;
 	}
-
   }
 
   th, td {
