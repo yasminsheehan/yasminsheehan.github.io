@@ -85,7 +85,27 @@ transition: 2s;
 .dateBox
 {
 	text-align: left;
+	height: 130px;
+	width: 130px;
 }
+
+.eventCaption{
+	text-align: center;
+	transition: 0.5s
+}
+
+.eventDate{
+	margin-bottom: 3px;
+	transition: 0.5s;
+}
+
+.eventPortrait
+{
+	height: 80px; 
+	width: auto;
+	transition: 0.5s;
+}
+
 
 h1
     {
@@ -140,6 +160,12 @@ h3
 	color: #c1595b;
 	font-size: 16px;
 	padding: 14px 16px;
+	transition: 0.2s;
+}
+
+.seasonButton:hover{
+	cursor: pointer;
+	scale: 1.1;
 }
 
 .tab {
@@ -187,15 +213,31 @@ h3
   }
  
   td {
-	padding-left: 10px;
-	padding-top: 10px;
+	padding: 10px;
+	transition: 0.5s;
+  }
+
+  td:hover{
+	cursor: pointer;
+	background-color: #bfb59b;
+	.eventPortrait{
+		scale: 1.1;
+	}
+	.eventCaption{
+		scale: 1.05;
+	}
+
+	.eventDate{
+		scale: 1.05;
+	}
+
   }
 
   th, td {
     text-align: center;
   }
 
-  tr, td {
+  tr {
 	border-radius: 20px;
   }
 

@@ -26,25 +26,25 @@ function test(text) {
 
    if (text == "spring"){ 
       // console.log("growth");
-      header.innerHTML = "Growth";
+      // header.innerHTML = "Growth";
       document.getElementById("springTable").style.display = "table";
    }
 
    if (text == "summer"){ 
    //  console.log("warmth");
-    header.innerHTML = "Warmth";
+   //  header.innerHTML = "Warmth";
     document.getElementById("summerTable").style.display = "table";
    }
 
    if (text == "autumn"){ 
    //  console.log("change");
-    header.innerHTML = "Change";
+   //  header.innerHTML = "Change";
     document.getElementById("autumnTable").style.display = "table";
    }
 
    if (text == "winter"){ 
    //  console.log("snow");
-    header.innerHTML = "Snow";
+   //  header.innerHTML = "Snow";
     document.getElementById("winterTable").style.display = "table";
    }
 }
