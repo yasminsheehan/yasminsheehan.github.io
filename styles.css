@@ -1,6 +1,6 @@
 @font-face {
 	font-family: "StardewFont";
-	src: url("../Fonts/stardew-valley-stonks.otf") format("opentype");
+	src: url("./Fonts/stardew-valley-stonks.otf") format("opentype");
 	}
 *
 {
@@ -47,12 +47,12 @@ body
   background-color: #ffcc7d;
   /* background: linear-gradient(270deg, #fecc7d 10% , #e2793f ); */
   margin: 0px;
-  background-image:url(../Images/TopBanner.png);
+  background-image:url(./Images/TopBanner.png);
 }
 
 .calendarHeading
 {	
-	background-image:url(../Images/StardewBanner.png);
+	background-image:url(./Images/StardewBanner.png);
 	background-position-x: center;
 	background-position-y: bottom;
 	color:#f7e927;
@@ -128,7 +128,7 @@ h3
 }
 
 .menuButton {
-	background-image:url(../Images/MenuButtonNew.png);
+	background-image:url(./Images/MenuButtonNew.png);
 	background-repeat: off;
   	background-size: 50px 50px;
 	width: 50px;
@@ -152,7 +152,7 @@ h3
 
 .seasonButton
 {
-	background-image:url(../Images/SmolButtOn.png);
+	background-image:url(./Images/SmolButtOn.png);
 	background-repeat: no-repeat;
   	background-size: 148px 42px;
 	width: 150px;	
@@ -173,7 +173,7 @@ h3
 	border-bottom: 3px solid #a4582c;
 	/* background-color: #ffcc7d; */
 	transition:0s;
-	background-image:url(../Images/TopBanner.png);
+	background-image:url(./Images/TopBanner.png);
 	background-position-x: center;
 	background-position-y: bottom;
   }
@@ -202,7 +202,7 @@ h3
   }
 
   .tablinks {
-	background-image:url(../Images/SmolButtOn.png);
+	background-image:url(./Images/SmolButtOn.png);
 	background-repeat: no-repeat;
   	background-size: 148px 42px;
   }
@@ -241,7 +241,7 @@ h3
   }
 
   .titleHeading {
-	background-image:url(../Images/PathBanner.png);
+	background-image:url(./Images/PathBanner.png);
 	background-position-x: center;
 	background-position-y: bottom;
 	color:#f7e927;
