@@ -106,6 +106,17 @@ transition: 2s;
 	transition: 0.5s;
 }
 
+.eventFestivalPortrait
+{
+	height: 40px; 
+	width: auto;
+	transition: 0.5s;
+}
+
+.eventFestivalPortraitDiv
+{
+	height: 80px;
+}
 
 h1
     {
@@ -222,6 +233,9 @@ h3
 	cursor: pointer;
 	background-color: #bfb59b;
 	.eventPortrait{
+		scale: 1.1;
+	}
+	.eventFestivalPortrait{
 		scale: 1.1;
 	}
 	.eventCaption{
